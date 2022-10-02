@@ -151,16 +151,20 @@ header {
 	display:block;
 	padding:0 20px;
 	height:42px;
-	font-size:18px;
+	font-size:18px; 
 	color:#dad6cc;
 	line-height:42px;
 	text-transform:uppercase;
 	text-decoration:none;
 	font-weight:400
+
+
 }
 #menu li a:hover, #menu #menu_active a {
 	background:url(../images/menu_active.gif) top repeat-x;
 	color:#fff
+
+
 }
 #top_nav {
 	float:right;
@@ -472,22 +476,22 @@ header {
 }
 /* ============================= footer ====================== */
 footer {
-	background:#000;
+	background:#cbcbcb;
 	padding:21px 36px 44px
 }
 #footer_logo {
-	float:left;
+     	float:left;
 	font-size:46px;
 	font-weight:300;
 	text-transform:uppercase;
-	color:#dedbd2;
+	color:#154af8;
 	line-height:1.2em;
 	text-decoration:none;
-	letter-spacing:-3px;
+	letter-spacing:-1px;
 	margin-left:-4px
 }
 #footer_logo span {
-	color:#ffc11e
+	color:#f8f515
 }
 #icons {
 	float:right;
@@ -515,17 +519,17 @@ footer {
 }
 .tel {
 	float:right;
-	margin-top:-1px;
-	background:url(../images/bot_icon.gif) 0 15px no-repeat;
+	margin-top:-40px;
+	
 	padding:0 0 0 38px;
 	font-size:35px;
 	line-height:1.2em;
-	color:#dedad1;
+	color:#154af8;
 	letter-spacing:-2px;
 	font-weight:300
 }
 .tel span {
-	color:#ffc11e
+	color:#f8f515
 }
 footer nav {
 	float:left
